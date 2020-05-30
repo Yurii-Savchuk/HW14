@@ -53,7 +53,7 @@ class Numberplate:
             my_str = f'{n} -- {var3}'
             lst.append(my_str)
 
-        return print(lst)
+        return lst
 
 
 res = Numberplate('asdafafds AА123s4BB aczxcx')

@@ -21,7 +21,7 @@ def numberplate(num):
         return None
 
 
-numberplate(num)
+print(numberplate(num))
 
 
 #  Напишите класс, который выбирает из произвольного текста номерные знаки и возвращает их в виде пронумерованного списка

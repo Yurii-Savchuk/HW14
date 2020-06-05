@@ -11,11 +11,7 @@ def numberplate(num):
     var2 = '\d{2}\s\d{3}-\d{2}[A-ZА-Я]{2}'
     var3 = '[а-яa-zA-ZА-Я]\d{5}[A-ZА-Я]{2}'
 
-    if re.findall(var1, num):
-        return num
-    elif re.findall(var2, num):
-        return num
-    elif re.findall(var3, num):
+    if re.findall(var1, num) or re.findall(var2, num) or re.findall(var3, num):
         return num
     else:
         return None
